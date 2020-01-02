@@ -17,7 +17,7 @@ In [2]: from datetime import date
 
 In [3]: calculadora = CalculadoraDoCidadão()
 
-In [4]: calculadora date(2010, 1, 1))
+In [4]: calculadora(42.0, date(2010, 1, 1))
 Out[4]:
   {'Data inicial': datetime.date(2010, 1, 1),
    'Data final': datetime.date(2019, 12, 1),
